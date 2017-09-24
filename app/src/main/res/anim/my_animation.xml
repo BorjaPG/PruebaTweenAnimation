@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <!-- duration: Duración de la animación-->
+    <!-- fromDegrees: Ángulo de inicio de la animación (en este caso rotación)-->
+    <!-- pivotX y pivotY: Determina el centro de la animación-->
+    <!-- repeatCount: Numero de veces que se repite la animación-->
+    <!-- toDegrees: Ángulo final de la animación-->
+
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="3"
+        android:toDegrees="360"/>
+
+</set>
